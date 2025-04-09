@@ -5,8 +5,8 @@ from .storage import add_task, get_all_tasks, mark_task_completed, remove_task
 def handle_action():
     user_input = input(
         "What action do you want to take?\n"
-        "1 - add task\n"
-        "2 - remove task\n"
+        "1 - add a task\n"
+        "2 - remove a task\n"
         "3 - mark as done\n"
         "4 - show all tasks\n"
     )
